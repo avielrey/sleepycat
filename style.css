@@ -27,8 +27,8 @@ body {
 }
 
 img {
-	max-width: 100%;
-	max-height: 100%;
+	max-width: 50%;
+	max-height: 50%;
 }
 
 .container {
@@ -52,25 +52,4 @@ img {
 
 .container:active {
 	transform: scale(0.95);
-}
-
-#logo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-decoration: none;
-	font-size: 40px;
-	position: absolute;
-	margin-top: 358px;
-}
-
-#logo:hover {
-	opacity: 0.3;
-	transform: scale(1.1);
-}
-
-@media screen and (max-width:750px) {
-	#logo {
-		display: none;
-	}
 }
