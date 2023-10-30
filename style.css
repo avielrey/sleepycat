@@ -42,7 +42,7 @@ img {
 	background-size: cover;
 	transition: all ease 0.2s;
 	user-select: none;
-	border-radius: 50%;
+	border-radius: 10%;
 	/* border: 4px solid var(--main-text-color); */
 }
 
